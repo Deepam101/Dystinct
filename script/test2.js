@@ -51,7 +51,7 @@ var QuizUI = {
     displayScore: function() {
         var gameOverHTML = "<h1>Test Over</h1>";
         gameOverHTML += "<h2> Your score is: " + quiz.score + "</h2>";
-        gameOverHTML += "<h2><button> <a href='test3.html'>Go to Test2</a></button></h2>";
+        gameOverHTML += "<h2><button> <a href='test3.html'>Go to Test3</a></button></h2>";
         this.populateIdWithHTML("quiz", gameOverHTML);
     },
     
