@@ -1,0 +1,14 @@
+.body{
+    color: white;
+}
+.screen{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+}
