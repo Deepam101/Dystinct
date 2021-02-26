@@ -5,13 +5,23 @@ crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <div class="login">
     <div class="login-triangle"></div>
-    
     <h2 class="login-header">Log In</h2>
   
     <form class="login-container" id="" role="form">
       <p><input type="email" placeholder="Email" required></p>
       <p><input type="password" placeholder="Password" required></p>
-      <a href='test1.html'><p><input type="button" value="Log in" id="submitButton" class="btn btn-info"></p></a>
+      <div><div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn ">
+          <input type="radio" name="role"> Patient
+        </label>
+        <label class="btn ">
+          <input type="radio" name="role"> Doctor
+        </label>
+        <label class="btn ">
+          <input type="radio" name="role"> Educator
+        </label>
+      </div></div>
+      <a href='consult.html'><p><input type="button" value="Log in" id="submitButton" class="btn btn-info"></p></a>
     </form>
   </div>
 

@@ -14,7 +14,7 @@
 </head>
 <body>
   
-  <div class="navbars">
+  <div class="navbars " style="z-index: 33;">
     <ul class="nav" >
       <li><a href="./index.html" style="text-decoration: none;">Home</a></li>
       <li><a href="./pages/about.html" style="text-decoration: none;">Team</a></li>
@@ -22,14 +22,17 @@
       <li><a href="#" style="text-decoration: none;">Join the Forum</a></li>
     </ul>
   </div>
+  <div style=" height: 100vh; width: 100vw;position: absolute;z-index:11 ;opacity: .5;overflow: hidden">
+    <img src="https://readingeggs.com/images/articles/teach-dyslexic-child-to-read-201810.jpg" style="width: 100vw;" >
+  </div>
   <div class="screen">
     <div class="container text-center " style="top: 30vh; position: relative;">
       <div class="welcome text-lg">
-        <img src="assets/logo.png" width="250px">
+        <img src="assets/logo.png" width="250px" style="z-index: 22;position: relative;">
       </div>
-      <div class="buttons mt-5">
-          <a href='pages/signup.html'><button class="btn btn-lg btn-success w-25" >SignUp</button></a>
-          <a href='pages/login.html'><button class="btn btn-lg btn-primary w-25" href='pages/login.html'>Login</button></a>
+      <div class="buttons mt-5" style="z-index: 22;">
+          <a href='pages/signup.html'><button class="btn btn-lg btn-success w-25" style="z-index: 22;position: relative; " >SignUp</button></a>
+          <a href='pages/login.html'><button class="btn btn-lg btn-primary w-25" style="z-index: 22;position: relative; " href='pages/login.html'>Login</button></a>
       </div>
     </div>
   </div>

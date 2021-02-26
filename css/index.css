@@ -5,7 +5,8 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background: rgb(255,255,255);
+    background: linear-gradient(253deg, rgba(255,255,255,0.9640056706276261) 0%, rgba(211,73,81,1) 78%, rgba(195,10,20,0.9275911048012955) 85%); 
     color: white;
 }
 .welcome{
