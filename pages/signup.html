@@ -1,0 +1,42 @@
+<link rel='stylesheet' type='text/css' media='screen' href="../css/login.css"  >
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+crossorigin="anonymous"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<div class="login">
+    <div class="login-triangle"></div>
+    
+    <h2 class="login-header">Sign Up</h2>
+  
+    <form class="login-container" id="register_form" role="form">
+      <p><input type="string" placeholder="Name" required></p>  
+      <p><input type="string" placeholder="Age" required></p>  
+      <p><input type="email" placeholder="Email" required></p>
+      <p><input type="password" placeholder="Password" required></p>
+      <a href='test1.html'><p><input type="button" value="Log in" id="submitButton" class="btn btn-info"></p></a>
+    </form>
+  </div>
+
+
+<script>
+$(document).ready(function() {
+
+$("#submitButton").click(function() {
+  ValidateForm();
+});
+
+});
+
+function ValidateForm() {
+
+var formInvalid = false;
+$('#register_form input').each(function() {
+  if ($(this).val() === '') {
+    formInvalid = true;
+  }
+});
+
+if (formInvalid)
+  alert('One or Two fields are empty. Please fill up all fields');
+}
+  </script>

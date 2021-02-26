@@ -74,11 +74,11 @@ var QuizUI = {
 };
 //Create Questions
 var questions = [
-    new Question("Who was the first President of the United States?", [ "George Washington", "Thomas Jefferson", "Thomas Edison", "I don't know" ], "George Washington"),
-    new Question("What is the answer to the Ultimate Question of Life, the Universe, and Everything?", ["Pi","42", "Wah?", "I don't know"], "42"),
-    new Question("Do you love to code?", ["No","Yes", "Hell Yeah", "No"], "Hell Yeah"),
-    new Question("What's the best programming language?", ["Javascript","C#", "Php", "Python"], "Javascript"),
-    new Question("Is Jason Chan Awesome?", ["Yes","No", "Maybe", "He's okay"], "Yes")
+    new Question("aabcde", [ "aacbde", "aabced", "abcdea", "aabcdew" ], "aabcde"),
+    new Question("pqrst", ["prstq","pytrsy", "pqrts", "pqrst"], "pqrst"),
+    new Question("klmnh", ["ljhnk","nmlkh", "klmnh", "hylmn"], "klmnh"),
+    new Question("tyupt", ["tyupt","ttyup", "uyttp", "wertp"], "tyupt"),
+    new Question("werty", ["wreyt","werty", "rtywe", "twery"], "werty")
 ];
 
 //Create Quiz

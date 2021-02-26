@@ -74,11 +74,11 @@ var QuizUI = {
 };
 //Create Questions
 var questions = [
-    new Question("Who was the first President of the United States?", [ "George Washington", "Thomas Jefferson", "Thomas Edison", "I don't know" ], "George Washington"),
-    new Question("What is the answer to the Ultimate Question of Life, the Universe, and Everything?", ["Pi","42", "Wah?", "I don't know"], "42"),
-    new Question("Do you love to code?", ["No","Yes", "Hell Yeah", "No"], "Hell Yeah"),
-    new Question("What's the best programming language?", ["Javascript","C#", "Php", "Python"], "Javascript"),
-    new Question("Is Jason Chan Awesome?", ["Yes","No", "Maybe", "He's okay"], "Yes")
+    new Question("Pen, Paper, Pencil, Stone, Scissor", [ "Pen, Paper, Scissor, Stone, Pencil", "Stone, Scissor, Paper, Pen, Pencil", "Pen, Paper, Pencil, Stone, Scissor", "Pencil, Pen, Stone, Scissor, Paper" ], "Pen, Paper, Pencil, Stone, Scissor"),
+    new Question("Apple, Mango, Orange, Guava, Pineapple", ["Pineapple, Mango, Orange, Guava, Apple","Apple, Orange, Mango, Guava, Pineapple", "Orange, Apple, Guava, Pineapple, Mango", "Apple, Mango, Orange, Guava, Pineapple"], "Apple, Mango, Orange, Guava, Pineapple"),
+    new Question("Potato, Tomato, Brinjal, Cucumber, Gourd", ["Potato, Tomato, Brinjal, Cucumber, Gourd","Brinjal, Potato, Tomato, Gourd, Cucumber", "Potato, Tomato, Brinjal, Cucumber, Gourd", " Potato, Tomato, Cucumber, Brinjal, Gourd"], "Potato, Tomato, Brinjal, Cucumber, Gourd"),
+    new Question("Sun, Moon, Star, Sky, Rain", ["Sun, Moon, Star, Sky, Rain","Sky, Moon, Star, Rain, Sun", "Moon, Sun, Star, Rain, Sky", "Sun, Moon, Star, Sky, Rain"], "Sun, Moon, Star, Sky, Rain"),
+    new Question("Top, Bottom, Right, Left, Front", ["Front, Top, Bottom, Right, Left","Top, Bottom, Right, Left, Fronto", "Top, Right, Left, Bottom, Front", "Front, Left, Right, Bottom, Top"], "Top, Bottom, Right, Left, Front")
 ];
 
 //Create Quiz

@@ -78,11 +78,11 @@ var QuizUI = {
 };
 //Create Questions
 var questions = [
-    new Question("../assets/t31.png","Who was the first President of the United States?", [ "George Washington", "Thomas Jefferson", "Thomas Edison", "I don't know" ], "George Washington"),
-    new Question("../assets/t32.png","What is the answer to the Ultimate Question of Life, the Universe, and Everything?", ["Pi","42", "Wah?", "I don't know"], "42"),
-    new Question("../assets/t33.png","Do you love to code?", ["No","Yes", "Hell Yeah", "No"], "Hell Yeah"),
-    new Question("../assets/t34.png","What's the best programming language?", ["Javascript","C#", "Php", "Python"], "Javascript"),
-    new Question("../assets/t35.png","Is Jason Chan Awesome?", ["Yes","No", "Maybe", "He's okay"], "Yes")
+    new Question("../assets/t31.png","What is the second highest number?", [ "1", "8", "9", "10" ], "8"),
+    new Question("../assets/t32.png"," Which Colour covered maximum region in circle?", ["Yellow","Orange", "Red", "Blue"], "Blue"),
+    new Question("../assets/t33.png","What is the highest number?", ["5","4.3", "3.9", "1"], "4.3"),
+    new Question("../assets/t34.png","What is the smallest number here?", ["2","4", "6", "8"], "2"),
+    new Question("../assets/t35.png","How many layers are there?", ["5","6", "7", "4"], "5")
 ];
 
 //Create Quiz

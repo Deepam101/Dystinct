@@ -1,0 +1,74 @@
+
+  .navbars {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7de;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+  }
+  .navbars  .nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+  }
+  .navbars  .logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  .navbars  img {
+    width: 20%;
+  }
+  .navbars  a {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  .navbars  a:hover {
+    color: #000;
+  }
+
+  
+  .navbars  .about-area,
+  .port-area,
+  .service-area,
+  .contact-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+  }
+  .text-part {
+    width: 65%;
+    height: 80%;
+  }
+  .about-area {
+    background-color: #fefefe;
+  }
+  .port-area {
+    background-color: #262626;
+    color: #fff;
+  }
+  .service-area {
+    background-color: #fefefe;
+  }
+  .contact-area {
+    background-color: #262626;
+    color: #fff;
+  }
+  
